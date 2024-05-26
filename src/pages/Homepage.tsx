@@ -27,7 +27,7 @@ const Homepage = () => {
        <div className="columns-2 md:columns-3 lg:columns-4 xl:columns-5 gap-2 " >
         {
             gifs.map((gif:any)=>{
-                return (<Gif gif={gif}  key={gif.title}/>)
+                return (<Gif gif={gif}  key={gif.id}/>)
             })        }
         
        </div>
